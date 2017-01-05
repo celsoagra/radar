@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+@keyframes spin {  
+  from {  transform: rotate(0deg);  }  
+  to { transform: rotate(360deg); }
+}
+
+#radar {
+    width: 960px;
+    height: 960px;
+    border-radius: 100%;
+    border: 1px solid black;
+    position: relative;
+    background: lightseagreen;
+    left: 22%;
+}
+#radar-inner {
+    height: 100%;
+    width: 100%;
+}
+#radar-inner .line-horizontal {
+    width: 100%;
+    height: 1px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+#radar-inner .line-vertical {
+    width: 1px;
+    height: 100%;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+/**
+80 ---- 320 ---- 480 ---- 640
+20 ---- 320 ---- 240 ---- 160
+*/
+
+#radar-inner .inner-circle {
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+    border: 1px solid black;
+    position: absolute;
+    top: 320px;
+    left: 320px;
+}
+
+#radar-inner .mid-circle {
+    width: 600px;
+    height: 600px;
+    border-radius: 100%;
+    border: 1px solid black;
+    position: absolute;
+    top: 180px;
+    left: 180px;
+}
+
+#radar-inner .outer-circle {
+    width: 800px;
+    height: 800px;
+    border-radius: 100%;
+    border: 1px solid black;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+
+#hand {
+    width: 1px;
+    height: 50%;
+    background: black;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    
+    transform: rotate(0deg);
+    transform-origin: 100% 0%;
+    
+    animation: spin 5s infinite linear;
+}
+
+.dot {
+    background: black;
+    width: 8px;
+    height: 8px;
+    border: 1px solid black;
+    border-radius: 100%;
+    position: absolute;
+}
+
+/* TITLE */
+
+.title{
+  text-align: center;
+  width: 100%;
+  height: 100px;
+}
+
+/* FOOTER */
+
+.footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin-top: 50px;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
