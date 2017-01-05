@@ -5,7 +5,7 @@ var data = [
         "description" : "The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.",
         "responsible" : "",
         "responsible_email" : "",
-        "link" : "#",
+        "link" : "https://jenkins.io/",
         "position" : "left: 40%; top: 20%;"
     },
     {
@@ -14,7 +14,7 @@ var data = [
         "description" : "Is an open source platform for continuous inspection of code quality.",
         "responsible" : "",
         "responsible_email" : "",
-        "link" : "#",
+        "link" : "https://www.sonarqube.org",
         "position" : "left: 15%; top: 60%;"
     },
     {
@@ -23,7 +23,7 @@ var data = [
         "description" : "JFrog provides open source communities with solutions to automate software package management.",
         "responsible" : "",
         "responsible_email" : "",
-        "link" : "#",
+        "link" : "https://www.jfrog.com/open-source/",
         "position" : "right: 20%; bottom: 40%;"
     },
     {
@@ -32,7 +32,7 @@ var data = [
         "description" : "Provides Git repository management, code reviews, issue tracking, activity feeds and wikis. GitLab itself is also free software.",
         "responsible" : "",
         "responsible_email" : "",
-        "link" : "#",
+        "link" : "https://gitlab.com",
         "position" : "right: 30%; bottom: 40%;"
     },
     {
@@ -50,7 +50,7 @@ var data = [
         "description" : "Add authentication to applications and secure services with minimum fuss. No need to deal with storing users or authenticating users. It's all available out of the box.",
         "responsible" : "",
         "responsible_email" : "",
-        "link" : "#",
+        "link" : "www.keycloak.orhttps://jenkins.io/",
         "position" : "right: 35%; bottom: 45%;"
     },
     {
@@ -59,7 +59,7 @@ var data = [
         "description" : "The apiman project brings an open source development methodology to API Management, coupling a rich API design & configuration layer with a blazingly fast runtime.",
         "responsible" : "",
         "responsible_email" : "",
-        "link" : "#",
+        "link" : "www.apimanhttps://www.sonarqube.orgio",
         "position" : "right: 20%; bottom: 40%;"
     }
 ]
