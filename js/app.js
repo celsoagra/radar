@@ -23,7 +23,9 @@ function getTooltip(json) {
   span.append( getTooltipHeader(json.name) );
   span.append( getTooltipElement(json.version, 'Version') );
   span.append( getTooltipElement(json.description) );
-  span.append( getTooltipElement(json.responsible + ' | ' + json.responsible_email, 'Responsible') );
+  if (json.responsible || json.responsible_email) {
+    span.append( getTooltipElement(json.responsible + ' | ' + json.responsible_email, 'Responsible') );  
+  }
   span.append( getTooltipElement('<a style="color:white;" href="' + json.link + '" >access link</a>') );
 
   return span;
