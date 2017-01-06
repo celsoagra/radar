@@ -1,8 +1,13 @@
 $(document).ready(function () {
   var items = [];
   $.each( data, function( key, val ) {
+    var type = '';
+    if (val.type) {
+      type = ' dot-' + val.type;
+    }
+
     $( "<div />", {
-      "class": "dot tooltip",
+      "class": "dot tooltip" + type,
       "style" : val.position,
       html: getTooltip (val)
     }).appendTo( "#radar" );

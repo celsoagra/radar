@@ -6,7 +6,8 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "https://jenkins.io/",
-        "position" : "left: 40%; top: 20%;"
+        "position" : "left: 40%; top: 20%;",
+        "type" : "tool"
     },
     {
         "name" : "Sonarqube",
@@ -15,7 +16,8 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "https://www.sonarqube.org",
-        "position" : "left: 15%; top: 60%;"
+        "position" : "left: 15%; top: 60%;",
+        "type" : "tool"
     },
     {
         "name" : "Artifactory JFrog",
@@ -24,7 +26,8 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "https://www.jfrog.com/open-source/",
-        "position" : "right: 20%; bottom: 40%;"
+        "position" : "right: 20%; bottom: 40%;",
+        "type" : "tool"
     },
     {
         "name" : "Gitlab",
@@ -32,8 +35,9 @@ var data = [
         "description" : "Provides Git repository management, code reviews, issue tracking, activity feeds and wikis. GitLab itself is also free software.",
         "responsible" : "",
         "responsible_email" : "",
-        "link" : "https://gitlab.com",
-        "position" : "right: 30%; bottom: 40%;"
+        "link" : "https://www.gitlab.com",
+        "position" : "right: 30%; bottom: 40%;",
+        "type" : "tool"
     },
     {
         "name" : "Redmine",
@@ -42,7 +46,8 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "#",
-        "position" : "right: 40%; bottom: 40%;"
+        "position" : "right: 40%; bottom: 40%;",
+        "type" : "technique"
     },
     {
         "name" : "Keycloak",
@@ -50,8 +55,9 @@ var data = [
         "description" : "Add authentication to applications and secure services with minimum fuss. No need to deal with storing users or authenticating users. It's all available out of the box.",
         "responsible" : "",
         "responsible_email" : "",
-        "link" : "www.keycloak.orhttps://jenkins.io/",
-        "position" : "right: 35%; bottom: 45%;"
+        "link" : "https://www.keycloak.org",
+        "position" : "right: 35%; bottom: 45%;",
+        "type" : "tool"
     },
     {
         "name" : "Apiman",
@@ -59,7 +65,28 @@ var data = [
         "description" : "The apiman project brings an open source development methodology to API Management, coupling a rich API design & configuration layer with a blazingly fast runtime.",
         "responsible" : "",
         "responsible_email" : "",
-        "link" : "www.apimanhttps://www.sonarqube.orgio",
-        "position" : "right: 20%; bottom: 40%;"
+        "link" : "www.apiman.io",
+        "position" : "right: 20%; bottom: 40%;",
+        "type" : "tool"
+    },
+    {
+        "name" : "Docker",
+        "version" : "1.12.8",
+        "description" : "",
+        "responsible" : "",
+        "responsible_email" : "",
+        "link" : "",
+        "position" : "right: 25%; bottom: 40%;",
+        "type" : "platform"
+    },
+    {
+        "name" : "Angular2",
+        "version" : "x",
+        "description" : "",
+        "responsible" : "",
+        "responsible_email" : "",
+        "link" : "",
+        "position" : "right: 25%; bottom: 20%;",
+        "type" : "framework"
     }
 ]
