@@ -86,7 +86,7 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "",
-        "position" : "right: 25%; bottom: 20%;",
+        "position" : "left: 55%; top: 55%;",
         "type" : "framework"
     }
 ]

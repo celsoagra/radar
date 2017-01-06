@@ -1,3 +1,7 @@
+const HALF = 958;
+const ALL = 958;
+const PERC = '%';
+
 $(document).ready(function () {
   var items = [];
   $.each( data, function( key, val ) {
@@ -13,8 +17,31 @@ $(document).ready(function () {
     }).appendTo( "#radar" );
   });
 
-  
+  document.onmousedown = handleMouseDown;
 });
+
+function handleMouseDown(event) {
+    var left = right = 0;
+    var top = bottom = 0;
+    var calcX, calcY;
+
+    event = event || window.event; // IE-ism
+
+    var elementRadar = document.getElementById('radar').getClientRects()[0];
+    var elementRadarX = event.clientX - elementRadar.left;
+    var elementRadarY = event.clientY - elementRadar.top;
+
+    calcX = (elementRadarX) * 100 / ALL;
+    left = Math.round(calcX);
+    
+    calcy = (elementRadarY) * 100 / ALL;
+    top = Math.round(calcy);
+
+    console.log(elementRadarX, elementRadarY);
+
+    $('#left').html(left + PERC);
+    $('#top').html(top + PERC);
+}
 
 function getTooltip(json) {
   var span = $( "<span />", {
