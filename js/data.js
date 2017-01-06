@@ -6,17 +6,17 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "https://jenkins.io/",
-        "position" : "left: 55%; top: 45%;",
+        "position" : "top: 45%; left: 55%;",
         "type" : "tool"
     },
     {
-        "name" : "APIs como Produto",
+        "name" : "API as a Product",
         "version" : "",
-        "description" : "",
+        "description" : "Teams that build APIs should understand the needs of their customers and make the product compelling to them. Products are also improved, maintained and supported over the long term. They should have an owner who advocates for the customer and strives for continual improvement.",
         "responsible" : "",
         "responsible_email" : "",
         "link" : "",
-        "position" : "left: 30%; top: 40%;",
+        "position" : "top: 40%; left: 30%;",
         "type" : "technique"
     },
     {
@@ -26,7 +26,7 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "",
-        "position" : "left: 45%; top: 45%;",
+        "position" : "top: 45%; left: 45%;",
         "type" : "technique"
     },
     {
@@ -36,7 +36,7 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "https://www.sonarqube.org",
-        "position" : "left: 60%; top: 45%;",
+        "position" : "top: 45%; left: 60%;",
         "type" : "tool"
     },
     {
@@ -46,7 +46,7 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "https://www.jfrog.com/open-source/",
-        "position" : "left: 60%; top: 30%;",
+        "position" : "top: 30%; left: 60%;",
         "type" : "tool"
     },
     {
@@ -56,7 +56,7 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "https://www.gitlab.com",
-        "position" : "left: 52%; top: 47%;",
+        "position" : "top: 47%; left: 52%;",
         "type" : "tool"
     },
     {
@@ -66,7 +66,7 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "#",
-        "position" : "left: 55%; top: 40%;",
+        "position" : "top: 40%; left: 55%;",
         "type" : "tool"
     },
     {
@@ -76,7 +76,7 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "https://www.keycloak.org",
-        "position" : "left: 70%; top: 45%;",
+        "position" : "top: 45%; left: 70%;",
         "type" : "tool"
     },
     {
@@ -86,7 +86,7 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "www.apiman.io",
-        "position" : "left: 70%; top: 40%;",
+        "position" : "top: 40%; left: 70%;",
         "type" : "tool"
     },
     {
@@ -96,7 +96,7 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "",
-        "position" : "left: 45%; top: 55%;",
+        "position" : "top: 55%; left: 45%;",
         "type" : "platform"
     },
     {
@@ -106,7 +106,37 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "",
-        "position" : "left: 63%; top: 67%;",
+        "position" : "top: 67%; left: 63%;",
         "type" : "framework"
+    },
+    {
+        "name" : "Lightweight Architecture Decision Records",
+        "version" : "",
+        "description" : "It’s important to record certain design decisions for the benefit of future team members and for external oversight. Lightweight Architecture Decision Records is a technique for capturing important architectural decisions along with their context and consequences",
+        "responsible" : "",
+        "responsible_email" : "",
+        "link" : "",
+        "position" : "top: 33%; left: 36%;",
+        "type" : "technique"
+    },
+    {
+        "name" : "Serverless architecture",
+        "version" : "",
+        "description" : "Is an approach that replaces long-running virtual machines with ephemeral compute power that comes into existence on request and disappears immediately after use.",
+        "responsible" : "",
+        "responsible_email" : "",
+        "link" : "",
+        "position" : "top: 33%; left: 36%;",
+        "type" : "technique"
+    },
+    {
+        "name" : "micro frontends",
+        "version" : "",
+        "description" : " In this approach, a web application is broken up by its pages and features, with each feature being owned end-to-end by a single team.",
+        "responsible" : "",
+        "responsible_email" : "",
+        "link" : "",
+        "position" : "top: 42%; left: 40%;",
+        "type" : "technique"
     }
 ]

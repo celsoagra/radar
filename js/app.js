@@ -48,12 +48,20 @@ function getTooltip(json) {
       "class": "tooltiptext"
   });
   span.append( getTooltipHeader(json.name) );
-  span.append( getTooltipElement(json.version, 'Version') );
+  
+  if (json.version) {
+    span.append( getTooltipElement(json.version, 'Version') );
+  }
+  
   span.append( getTooltipElement(json.description) );
+  
   if (json.responsible || json.responsible_email) {
     span.append( getTooltipElement(json.responsible + ' | ' + json.responsible_email, 'Responsible') );  
   }
-  span.append( getTooltipElement('<a style="color:white;" href="' + json.link + '" >access link</a>') );
+
+  if (json.link) {
+    span.append( getTooltipElement('<a style="color:white;" href="' + json.link + '" >access link</a>') );
+  }
 
   return span;
 }
