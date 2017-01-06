@@ -6,8 +6,28 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "https://jenkins.io/",
-        "position" : "left: 40%; top: 20%;",
+        "position" : "left: 55%; top: 45%;",
         "type" : "tool"
+    },
+    {
+        "name" : "APIs como Produto",
+        "version" : "",
+        "description" : "",
+        "responsible" : "",
+        "responsible_email" : "",
+        "link" : "",
+        "position" : "left: 30%; top: 40%;",
+        "type" : "technique"
+    },
+    {
+        "name" : "Minimum Viable Product (MVP)",
+        "version" : "",
+        "description" : "",
+        "responsible" : "",
+        "responsible_email" : "",
+        "link" : "",
+        "position" : "left: 45%; top: 45%;",
+        "type" : "technique"
     },
     {
         "name" : "Sonarqube",
@@ -16,7 +36,7 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "https://www.sonarqube.org",
-        "position" : "left: 15%; top: 60%;",
+        "position" : "left: 60%; top: 45%;",
         "type" : "tool"
     },
     {
@@ -26,7 +46,7 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "https://www.jfrog.com/open-source/",
-        "position" : "right: 20%; bottom: 40%;",
+        "position" : "left: 60%; top: 30%;",
         "type" : "tool"
     },
     {
@@ -36,7 +56,7 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "https://www.gitlab.com",
-        "position" : "right: 30%; bottom: 40%;",
+        "position" : "left: 52%; top: 47%;",
         "type" : "tool"
     },
     {
@@ -46,8 +66,8 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "#",
-        "position" : "right: 40%; bottom: 40%;",
-        "type" : "technique"
+        "position" : "left: 55%; top: 40%;",
+        "type" : "tool"
     },
     {
         "name" : "Keycloak",
@@ -56,7 +76,7 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "https://www.keycloak.org",
-        "position" : "right: 35%; bottom: 45%;",
+        "position" : "left: 70%; top: 45%;",
         "type" : "tool"
     },
     {
@@ -66,7 +86,7 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "www.apiman.io",
-        "position" : "right: 20%; bottom: 40%;",
+        "position" : "left: 70%; top: 40%;",
         "type" : "tool"
     },
     {
@@ -76,7 +96,7 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "",
-        "position" : "right: 25%; bottom: 40%;",
+        "position" : "left: 45%; top: 55%;",
         "type" : "platform"
     },
     {
@@ -86,7 +106,7 @@ var data = [
         "responsible" : "",
         "responsible_email" : "",
         "link" : "",
-        "position" : "left: 55%; top: 55%;",
+        "position" : "left: 63%; top: 67%;",
         "type" : "framework"
     }
 ]

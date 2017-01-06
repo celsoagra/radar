@@ -32,10 +32,10 @@ function handleMouseDown(event) {
     var elementRadarY = event.clientY - elementRadar.top;
 
     calcX = (elementRadarX) * 100 / ALL;
-    left = Math.round(calcX);
+    left = Math.floor(calcX);
     
     calcy = (elementRadarY) * 100 / ALL;
-    top = Math.round(calcy);
+    top = Math.floor(calcy);
 
     console.log(elementRadarX, elementRadarY);
 
