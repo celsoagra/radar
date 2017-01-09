@@ -1,5 +1,3 @@
-const HALF = 958;
-const ALL = 958;
 const PERC = '%';
 
 $(document).ready(function () {
@@ -31,13 +29,11 @@ function handleMouseDown(event) {
     var elementRadarX = event.clientX - elementRadar.left;
     var elementRadarY = event.clientY - elementRadar.top;
 
-    calcX = (elementRadarX) * 100 / ALL;
+    calcX = (elementRadarX) * 100 / $("#radar").width();
     left = Math.floor(calcX);
     
-    calcy = (elementRadarY) * 100 / ALL;
+    calcy = (elementRadarY) * 100 / $("#radar").height();
     top = Math.floor(calcy);
-
-    console.log(elementRadarX, elementRadarY);
 
     $('#left').html(left + PERC);
     $('#top').html(top + PERC);

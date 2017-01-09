@@ -8,13 +8,13 @@
 }
 
 #radar {
-    width: 960px;
-    height: 960px;
+    width: 600px;
+    height: 600px;
     border-radius: 100%;
     border: 1px solid white;
     position: relative;
     background: lightgray;
-    left: 22%;
+    left: 25%;
 }
 #radar-inner {
     height: 100%;
@@ -43,33 +43,33 @@
 */
 
 #radar-inner .inner-circle {
-    width: 320px;
-    height: 320px;
+    width: 30%;
+    height: 30%;
     border-radius: 100%;
     border: 3px solid white;
     position: absolute;
-    top: 320px;
-    left: 320px;
+    top: 35%;
+    left: 35%;
 }
 
 #radar-inner .mid-circle {
-    width: 600px;
-    height: 600px;
+    width: 60%;
+    height: 60%;
     border-radius: 100%;
     border: 3px solid white;
     position: absolute;
-    top: 180px;
-    left: 180px;
+    top: 20%;
+    left: 20%;
 }
 
 #radar-inner .outer-circle {
-    width: 800px;
-    height: 800px;
+    width: 80%;
+    height: 80%;
     border-radius: 100%;
     border: 3px solid white;
     position: absolute;
-    top: 80px;
-    left: 80px;
+    top: 10%;
+    left: 10%;
 }
 
 #hand {
