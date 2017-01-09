@@ -14,7 +14,7 @@
     border: 1px solid white;
     position: relative;
     background: lightgray;
-    left: 25%;
+    margin:0 auto;
 }
 #radar-inner {
     height: 100%;
@@ -37,10 +37,40 @@
     left: 50%;
 }
 
-/**
-80 ---- 320 ---- 480 ---- 640
-20 ---- 320 ---- 240 ---- 160
-*/
+.float {
+    font-size: 24pt;
+    font-weight: bold;
+    position: absolute;
+    text-align:center;
+}
+
+.float.right {
+     left: 100%;
+}
+
+.float.left {
+    left: -20%;
+}
+
+.float.bottom {
+    bottom: 0;
+}
+
+.technique {
+    color: darkblue;
+}
+
+.platform {
+    color: darkorange;
+}
+
+.tool {
+    color: darkgreen;
+}
+
+.framework {
+    color: darkred;
+}
 
 #radar-inner .inner-circle {
     width: 30%;
