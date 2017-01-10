@@ -129,6 +129,15 @@
     position: absolute;
 }
 
+.changed {
+    -webkit-transform: rotate(45deg); /* Safari and Chrome */
+    -moz-transform: rotate(45deg);   /* Firefox */
+    -ms-transform: rotate(45deg);   /* IE 9 */
+    -o-transform: rotate(45deg);   /* Opera */
+    transform: rotate(45deg);
+    border-radius: 0% !important;
+}
+
 .dot-technique {
     background: darkblue;
 }
@@ -151,6 +160,9 @@
   text-align: center;
   width: 100%;
   height: 100px;
+  background-color: #efefef;
+  margin-bottom: 50px;
+  padding: 10px;
 }
 
 /* FOOTER */
